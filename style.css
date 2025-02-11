@@ -1,0 +1,27 @@
+.bg_szurke_body {
+    background-color: rgb(31, 31, 36);
+}
+.bg_szurke_header {
+    background-color: rgb(39, 39, 48);
+}
+body {
+    font-family: 'DM Mono', monospace;
+}
+.text_kek_egy {
+    color: #53C8FF;
+}
+.nav_krava {
+    display: inline-block;
+    transform: translateY(3px); /* 3px-el lejjebb tolja */
+}
+.nav_dev {
+    font-size: 18px;
+}
+.border_kek {
+    border: 1px solid #53C8FF;
+}
+.kep_profil {
+    width: 200px; /* Vagy bármilyen kívánt méret */
+    height: 200px;
+    overflow: hidden; /* Megakadályozza, hogy a kép kilógjon */
+}

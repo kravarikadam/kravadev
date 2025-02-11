@@ -1,0 +1,24 @@
+ihlet keltő oldalak: 
+https://zelio-developer.botble.com/
+https://www.behance.net/gallery/173956831/Portfolio?tracking_source=search_projects|developer+portfolio&l=0
+
+Git:
+Új repo készítése
+Elérhetőségének másolása: https://github.com/kravarikadam/kravadev.git
+
+Terminal: 
+cd..
+cd adott_mappa
+c:\adott_mappa> git init // Ez létrehoz egy .git mappát, amely tárolja a verziókezelési adatokat.
+c:\adott_mappa> git remote add origin https://github.com/kravarikadam/kravadev.git // Állítsd be a távoli GitHub repót
+c:\adott_mappa> git remote -v // Ellenőrizheted, hogy sikerült-e hozzáadni:
+c:\adott_mappa> git add . // Add hozzá az összes fájlt a commithoz
+c:\adott_mappa> git commit -m "Első feltöltés" // Készíts egy első commitot
+ha a repó üres:
+c:\adott_mappa> git branch -M main // az aktuális branch nevét main-re változtatja a régi master helyett
+c:\adott_mappa> git push -u origin main // feltölti a lokális main branch tartalmát a GitHub repóba (origin-ra).
+ha már van tartalom a repon:
+c:\adott_mappa> git pull origin main --rebase // letölti a változásokat a GitHubról
+c:\adott_mappa> git push origin main // feltöltés
+
+

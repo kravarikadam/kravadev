@@ -51,4 +51,25 @@ section {
     flex-grow: 1; /* A section kitölti a fennmaradó helyet */   
 }
 /*//////////////////////////////////////////////////////////////////*/
-
+.text_rozsaszin {
+    color:#f778ba ;
+}
+/*/////////////////cursor villogás//////////////////////////////////*/
+.cursor {
+    display: inline-block;
+    width: 2px; /* Vékony vonal */
+    height: 1.2em; /* A szövegmagasságnál kicsit nagyobb */
+    background-color: rgb(254, 141, 89);
+    vertical-align: middle; /* Középre igazítás a szöveghez */
+    margin-left: 3px; /* Kis távolság a szövegtől */
+    /* animation: blink 0.8s steps(2, start) infinite; */
+    /* animation: blink 1s linear infinite; */
+    animation: blink 0.8s steps(1, start) infinite;
+  }
+  
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  /*//////////////////////////////////////////////////////////////////*/
+  

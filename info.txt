@@ -25,7 +25,6 @@ c:\adott_mappa> git status // Ez megmutatja, ha vannak olyan fájlok, amik nincs
 c:\adott_mappa> git pull  // Húzd le a legfrissebb változtatásokat a GitHub-ról
 
 Friss fejlesztés, feltöltése a repóba:
-c:\adott_mappa> git init
 c:\adott_mappa> git add .
 c:\adott_mappa> git commit -m "Leírás a változtatásról"
 c:\adott_mappa> git push origin main

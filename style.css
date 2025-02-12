@@ -12,7 +12,7 @@ body {
 }
 .nav_krava {
     display: inline-block;
-    transform: translateY(3px); /* 3px-el lejjebb tolja */
+    transform: translate(-12px, 2px); /* 3px-el lejjebb tolja */
 }
 .nav_dev {
     font-size: 18px;
@@ -21,7 +21,34 @@ body {
     border: 1px solid #53C8FF;
 }
 .kep_profil {
-    width: 200px; /* Vagy bármilyen kívánt méret */
-    height: 200px;
-    overflow: hidden; /* Megakadályozza, hogy a kép kilógjon */
+    width: 250px; /* A kívánt méret */
+    height: 250px;
+    overflow: hidden; /* Elrejti a képet, ami kilóg */
+    position: relative; /* Fontos, hogy a kép pozicionálható legyen */
+    border-radius: 50%; /* Kör alakú doboz */
+    border: 1px solid #53C8FF;
 }
+
+.kep_profil img {
+    position: absolute; /* Pozicionáljuk abszolút módon */
+    top: 50%; /* Középre helyezés */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Kép középre igazítása */
+    width: 120%; /* A kép nagyítása */
+    height: 102%; /* A kép nagyítása */
+    object-fit: cover; /* A kép kitölti a teret, miközben megtartja az arányait */
+}
+section {
+    margin-top: -5px; /* Vagy bármilyen kívánt távolság */
+}
+/*////////////////teljes képernyő méret legyen a nav és aze lső section*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+section {
+    flex-grow: 1; /* A section kitölti a fennmaradó helyet */   
+}
+/*//////////////////////////////////////////////////////////////////*/
+

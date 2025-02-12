@@ -78,3 +78,6 @@ section {
 .text_sarga {
     color: #F9A825;
 }
+header, section {
+    max-width: 1000px;
+}

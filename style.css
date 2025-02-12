@@ -54,7 +54,7 @@ section {
 .text_rozsaszin {
     color:#f778ba ;
 }
-/*/////////////////cursor villogás//////////////////////////////////*/
+/*//////////cursor villogás függőleges//////////////////////////////*/
 .cursor {
     display: inline-block;
     width: 2px; /* Vékony vonal */
@@ -71,5 +71,10 @@ section {
     0%, 50% { opacity: 1; }
     100% { opacity: 0; }
   }
-  /*//////////////////////////////////////////////////////////////////*/
-  
+/*///////////////////////////////////////////////////////*/
+.text_zold {
+    color: #4caf50;
+}
+.text_sarga {
+    color: #F9A825;
+}

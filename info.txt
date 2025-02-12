@@ -5,7 +5,6 @@ https://www.behance.net/gallery/173956831/Portfolio?tracking_source=search_proje
 Git:
 Új repo készítése
 Elérhetőségének másolása: https://github.com/kravarikadam/kravadev.git
-
 Terminal: 
 cd..
 cd adott_mappa
@@ -20,5 +19,16 @@ c:\adott_mappa> git push -u origin main // feltölti a lokális main branch tart
 ha már van tartalom a repon:
 c:\adott_mappa> git pull origin main --rebase // letölti a változásokat a GitHubról
 c:\adott_mappa> git push origin main // feltöltés
+
+Repo tartalom eggyeztetés és letöltés:
+c:\adott_mappa> git status // Ez megmutatja, ha vannak olyan fájlok, amik nincsenek szinkronban a GitHub-lal
+c:\adott_mappa> git pull  // Húzd le a legfrissebb változtatásokat a GitHub-ról
+
+Friss fejlesztés, feltöltése a repóba:
+c:\adott_mappa> git init
+c:\adott_mappa> git add .
+c:\adott_mappa> git commit -m "Leírás a változtatásról"
+c:\adott_mappa> git push origin main
+
 
 

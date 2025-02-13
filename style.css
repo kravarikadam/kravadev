@@ -41,7 +41,7 @@ body {
 section {
     margin-top: -5px; /* Vagy bármilyen kívánt távolság */
 }
-/*////////////////teljes képernyő méret legyen a nav és aze lső section*/
+/*////////////////teljes képernyő méret legyen a nav és az első section*/
 body {
     display: flex;
     flex-direction: column;
@@ -53,6 +53,9 @@ section {
 /*//////////////////////////////////////////////////////////////////*/
 .text_rozsaszin {
     color:#f778ba ;
+}
+.text_lila {
+    color: #9575CD;
 }
 /*//////////cursor villogás függőleges//////////////////////////////*/
 .cursor {
@@ -81,3 +84,4 @@ section {
 header, section {
     max-width: 1000px;
 }
+

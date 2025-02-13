@@ -4,21 +4,42 @@
 .bg_szurke_header {
     background-color: rgb(39, 39, 48);
 }
-body {
-    font-family: 'DM Mono', monospace;
+.border_kek {
+    border: 1px solid #53C8FF;
 }
 .text_kek_egy {
     color: #53C8FF;
 }
+.text_rozsaszin {
+    color:#f778ba ;
+}
+.text_lila {
+    color: #9575CD;
+}
+.text_zold {
+    color: #4caf50;
+}
+.text_sarga {
+    color: #F9A825;
+}
+.text_kek {
+    color: #569CD6;
+}
+.text_kek_vilagos {
+    color: #9CDCFE;
+}
+.text_zold_halvany {
+    color: #B5CEA8;
+}
+body {
+    font-family: 'DM Mono', monospace;
+}
 .nav_krava {
     display: inline-block;
-    transform: translate(-12px, 2px); /* 3px-el lejjebb tolja */
+    transform: translate(-12px, 4px); /* 3px-el lejjebb tolja */
 }
 .nav_dev {
     font-size: 18px;
-}
-.border_kek {
-    border: 1px solid #53C8FF;
 }
 .kep_profil {
     width: 250px; /* A kívánt méret */
@@ -28,7 +49,6 @@ body {
     border-radius: 50%; /* Kör alakú doboz */
     border: 1px solid #53C8FF;
 }
-
 .kep_profil img {
     position: absolute; /* Pozicionáljuk abszolút módon */
     top: 50%; /* Középre helyezés */
@@ -51,12 +71,6 @@ section {
     flex-grow: 1; /* A section kitölti a fennmaradó helyet */   
 }
 /*//////////////////////////////////////////////////////////////////*/
-.text_rozsaszin {
-    color:#f778ba ;
-}
-.text_lila {
-    color: #9575CD;
-}
 /*//////////cursor villogás függőleges//////////////////////////////*/
 .cursor {
     display: inline-block;
@@ -75,13 +89,12 @@ section {
     100% { opacity: 0; }
   }
 /*///////////////////////////////////////////////////////*/
-.text_zold {
-    color: #4caf50;
-}
-.text_sarga {
-    color: #F9A825;
-}
 header, section {
     max-width: 1000px;
 }
-
+#logo_kep {
+    width: 50px;
+}
+#menubar_icon {
+    width: 40px;
+}

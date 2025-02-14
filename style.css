@@ -162,3 +162,11 @@ section {
 header, section, footer {
     max-width: 800px !important;
 }
+h5 {
+    all: unset; /* Minden alapértelmezett stílust eltávolít */
+    font-size: inherit; /* Az örökölt betűméret */
+    font-weight: inherit; /* Az örökölt betűvastagság */
+    margin: 0; /* Eltávolítja az alapértelmezett margót */
+    padding: 0; /* Eltávolítja az alapértelmezett paddingot */
+    line-height: inherit; /* Az örökölt sor magasság */
+}

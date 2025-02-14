@@ -1,100 +1,170 @@
 .bg_szurke_body {
     background-color: rgb(31, 31, 36);
 }
+
 .bg_szurke_header {
     background-color: rgb(39, 39, 48);
 }
+
 .border_kek {
     border: 1px solid #53C8FF;
 }
+
 .text_kek_egy {
     color: #53C8FF;
 }
+
 .text_rozsaszin {
-    color:#f778ba ;
+    color: #f778ba;
 }
+
 .text_lila {
     color: #9575CD;
 }
+
 .text_zold {
     color: #4caf50;
 }
+
 .text_sarga {
     color: #F9A825;
 }
+
 .text_kek {
     color: #569CD6;
 }
+
 .text_kek_vilagos {
     color: #9CDCFE;
 }
+
 .text_zold_halvany {
     color: #B5CEA8;
 }
+
 body {
     font-family: 'DM Mono', monospace;
 }
+
 .nav_krava {
     display: inline-block;
-    transform: translate(-12px, 4px); /* 3px-el lejjebb tolja */
+    transform: translate(-12px, 4px);
+    /* 3px-el lejjebb tolja */
 }
+
 .nav_dev {
     font-size: 18px;
 }
+
 .kep_profil {
-    width: 250px; /* A kívánt méret */
+    width: 250px;
+    /* A kívánt méret */
     height: 250px;
-    overflow: hidden; /* Elrejti a képet, ami kilóg */
-    position: relative; /* Fontos, hogy a kép pozicionálható legyen */
-    border-radius: 50%; /* Kör alakú doboz */
+    overflow: hidden;
+    /* Elrejti a képet, ami kilóg */
+    position: relative;
+    /* Fontos, hogy a kép pozicionálható legyen */
+    border-radius: 50%;
+    /* Kör alakú doboz */
     border: 1px solid #53C8FF;
 }
+
 .kep_profil img {
-    position: absolute; /* Pozicionáljuk abszolút módon */
-    top: 50%; /* Középre helyezés */
+    position: absolute;
+    /* Pozicionáljuk abszolút módon */
+    top: 50%;
+    /* Középre helyezés */
     left: 50%;
-    transform: translate(-50%, -50%); /* Kép középre igazítása */
-    width: 120%; /* A kép nagyítása */
-    height: 102%; /* A kép nagyítása */
-    object-fit: cover; /* A kép kitölti a teret, miközben megtartja az arányait */
+    transform: translate(-50%, -50%);
+    /* Kép középre igazítása */
+    width: 120%;
+    /* A kép nagyítása */
+    height: 102%;
+    /* A kép nagyítása */
+    object-fit: cover;
+    /* A kép kitölti a teret, miközben megtartja az arányait */
 }
+
 section {
-    margin-top: -5px; /* Vagy bármilyen kívánt távolság */
+    margin-top: -5px;
+    /* Vagy bármilyen kívánt távolság */
 }
+
 /*////////////////teljes képernyő méret legyen a nav és az első section*/
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
+
 section {
-    flex-grow: 1; /* A section kitölti a fennmaradó helyet */   
+    flex-grow: 1;
+    /* A section kitölti a fennmaradó helyet */
 }
+
 /*//////////////////////////////////////////////////////////////////*/
 /*//////////cursor villogás függőleges//////////////////////////////*/
 .cursor {
     display: inline-block;
-    width: 2px; /* Vékony vonal */
-    height: 1.2em; /* A szövegmagasságnál kicsit nagyobb */
+    width: 2px;
+    /* Vékony vonal */
+    height: 1.2em;
+    /* A szövegmagasságnál kicsit nagyobb */
     background-color: rgb(254, 141, 89);
-    vertical-align: middle; /* Középre igazítás a szöveghez */
-    margin-left: 3px; /* Kis távolság a szövegtől */
+    vertical-align: middle;
+    /* Középre igazítás a szöveghez */
+    margin-left: 3px;
+    /* Kis távolság a szövegtől */
     /* animation: blink 0.8s steps(2, start) infinite; */
     /* animation: blink 1s linear infinite; */
     animation: blink 0.8s steps(1, start) infinite;
-  }
-  
-  @keyframes blink {
-    0%, 50% { opacity: 1; }
-    100% { opacity: 0; }
-  }
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 /*///////////////////////////////////////////////////////*/
-header, section {
+header,
+section {
     max-width: 1000px;
 }
+
 #logo_kep {
     width: 50px;
 }
+
 #menubar_icon {
     width: 40px;
+}
+
+#keszsegeim {
+    display: inline-block;
+    width: 110px;
+}
+
+#frontEnd_eszkozei_csuszka {
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.csuszka_50 {
+    background: linear-gradient(to right, #53C8FF 50%, white 50%);
+}
+
+.csuszka_30 {
+    background: linear-gradient(to right, #53C8FF 30%, white 30%);
+}
+#amisclean:hover {
+    color: #53C8FF !important;
 }

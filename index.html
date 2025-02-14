@@ -1,100 +1,155 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kravadev</title>
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kravadev</title>
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body class="bg_szurke_body p-1">
-    <header class="container bg_szurke_header rounded border_kek position-relative z-3 p-2">
-        <nav class="navbar navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand text-white fs-2" href="#">
-                <img src="img/dev_logo_kek_egy.svg" alt="logo kép" id="logo_kep">
-                <span class="nav_krava"><h1>Krava<span class="text_kek_egy nav_dev">dev</h1></span></span>
+  <header class="container bg_szurke_header rounded border_kek position-relative z-3 p-2">
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fs-2" href="#">
+          <img src="img/dev_logo_kek_egy.svg" alt="logo kép" id="logo_kep">
+          <h1 class="nav_krava">Krava<span class="text_kek_egy nav_dev">dev</span></h1>
+        </a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <img src="img/menu_icon_feher.svg" alt="menubar kép" class="img-fluid" id="menubar_icon">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">
+                <span>Mindenre azért nekem sincs időm... <i class="fa-regular fa-face-smile text_sarga"></i></span>
               </a>
-              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="img/menu_icon_feher.svg" alt="menubar kép" class="img-fluid" id="menubar_icon">
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">
-                      <span>Mindenre azért nekem sincs időm... <i class="fa-regular fa-face-smile text_sarga"></i></span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <section class="container d-md-flex align-items-center py-5 bg_szurke_header border_kek border-top-0 rounded-bottom mb-1">
-      <div class="kep_profil rounded-circle container-fluid bg_szurke_body col-md-6 mt-5 my-md-5">
-        <img src="img/en.png" alt="kép rólam" class="img-fluid">
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="leiras_profil text-white pt-5 pt-md-0 ps-3 col-md-6 mb-4">
-        <div class="mb-2"><span class="text_rozsaszin">&lt;span&gt;</span>Szia, Ádám vagyok<span class="cursor"></span><span class="text_rozsaszin">&lt;/span&gt;</span></div>
-        <div class="mb-2"><span><span class="text_sarga">&lt;p&gt;</span>Junior Web Developer<span class="text_sarga">&lt;/p&gt;</span></span></div>
-        <div class=""><span class="text_zold">// &#123;Webfejlesztő&#125;</span></div>
-      </div>
-    </section>
+    </nav>
+  </header>
 
-    <section class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
-      <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Bemutatkozás<span class="text_lila">&lt;/h2&gt;</span></h2>
-      <p><span class="text_sarga d-block">&lt;p&gt;</span>Szia! Kravarik Ádám vagyok, webfejlesztő. Szenvedélyem a kreatív és hatékony online megoldások készítése. Célom, hogy minden projektet a legjobb technológiai megoldásokkal támogassak, miközben figyelek a részletekre és a felhasználói élményre. Ha szükséged van egy megbízható partnerre a weboldalad megalkotásában, keresd bátran!<span class="text_sarga d-block">&lt;/p&gt;</span></p>
-    </section>
+  <section
+    class="container d-md-flex align-items-center py-5 bg_szurke_header border_kek border-top-0 rounded-bottom mb-1">
+    <div class="kep_profil rounded-circle container-fluid bg_szurke_body col-md-6 mt-5 my-md-5">
+      <img src="img/en.png" alt="kép rólam" class="img-fluid">
+    </div>
+    <div class="leiras_profil text-white pt-5 pt-md-0 ps-3 col-md-6 mb-4">
+      <div class="mb-2"><span class="text_rozsaszin">&lt;span&gt;</span>Szia, Ádám vagyok<span
+          class="cursor"></span><span class="text_rozsaszin">&lt;/span&gt;</span></div>
+      <div class="mb-2"><span><span class="text_sarga">&lt;p&gt;</span>Junior Web Developer<span
+            class="text_sarga">&lt;/p&gt;</span></span></div>
+      <div class=""><span class="text_zold">// &#123;Webfejlesztő&#125;</span></div>
+    </div>
+  </section>
 
-    <section class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
-      <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Készségeim<span class="text_lila">&lt;/h2&gt;</span></h2>
-      <ul>
-        <li><h5>Front-End</h5></li>
-          <ul class="mb-3">
-            <li class="text_kek_egy"><div id="keszsegeim">HTML</div><div id="frontEnd_eszkozei_csuszka" class="csuszka_50"></div></li>
-            <li class="text_kek_egy"><div id="keszsegeim">CSS</div><div id="frontEnd_eszkozei_csuszka" class="csuszka_50"></div></li>
-            <li class="text_kek_egy"><div id="keszsegeim">JavaScript</div><div id="frontEnd_eszkozei_csuszka" class="csuszka_30"></div></li>
-            <li class="text_kek_egy"><div id="keszsegeim">Bootstrap</div><div id="frontEnd_eszkozei_csuszka" class="csuszka_50"></div></li>
-            <li class="text_kek_egy"><div id="keszsegeim">React</div><div id="frontEnd_eszkozei_csuszka" class="bg-white"></div></li>
-          </ul>
-        <li><h5>Back-End</h5></li>
-          <ul class="mb-3">
-            <li class="text_kek_egy"><div id="keszsegeim">Node.js</div><div id="frontEnd_eszkozei_csuszka" class="bg-white"></div></li>
-            <li class="text_kek_egy"><div id="keszsegeim">Express</div><div id="frontEnd_eszkozei_csuszka" class="bg-white"></div></li>
-          </ul>
-        <li><h5>Databases</h5></li>
-          <ul class="mb-3">
-            <li class="text_kek_egy"><div id="keszsegeim">MongoDB</div><div id="frontEnd_eszkozei_csuszka" class="bg-white"></div></li>
-          </ul>
-        <li><h5>Tools&Plattforms</h5></li>
-          <ul>
-            <li class="text_kek_egy"><div id="keszsegeim">Git</div><div id="frontEnd_eszkozei_csuszka" class="csuszka_30"></div></li>
-          </ul>
-      </ul>
-      
-    </section>
+  <section class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
+    <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Bemutatkozás<span
+        class="text_lila">&lt;/h2&gt;</span></h2>
+    <p><span class="text_sarga d-block">&lt;p&gt;</span>Szia! Kravarik Ádám vagyok, webfejlesztő. Szenvedélyem a kreatív
+      és hatékony online megoldások készítése. Célom, hogy minden projektet a legjobb technológiai megoldásokkal
+      támogassak, miközben figyelek a részletekre és a felhasználói élményre. Ha szükséged van egy megbízható partnerre
+      a weboldalad megalkotásában, keresd bátran!<span class="text_sarga d-block">&lt;/p&gt;</span></p>
+  </section>
 
-    <section class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
-      <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Munkáim<span class="text_lila">&lt;/h2&gt;</span></h2>
-      <ul>
-        <li><a href="https://www.amisclean.hu/" target="_blank" class="text-decoration-none text-white" id="amisclean">https://www.amisclean.hu/</a></li>
-      </ul>
-    </section>
+  <section class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
+    <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Készségeim<span class="text_lila">&lt;/h2&gt;</span>
+    </h2>
+    <ul>
+      <li>
+        <h5>Front-End</h5>
+        <ul class="mb-3">
+          <li class="text_kek_egy">
+            <div class="keszsegeim">HTML</div>
+            <div class="frontEnd_eszkozei_csuszka csuszka_50"></div>
+          </li>
+          <li class="text_kek_egy">
+            <div class="keszsegeim">CSS</div>
+            <div class="frontEnd_eszkozei_csuszka csuszka_50"></div>
+          </li>
+          <li class="text_kek_egy">
+            <div class="keszsegeim">JavaScript</div>
+            <div class="frontEnd_eszkozei_csuszka csuszka_30"></div>
+          </li>
+          <li class="text_kek_egy">
+            <div class="keszsegeim">Bootstrap</div>
+            <div class="frontEnd_eszkozei_csuszka csuszka_50"></div>
+          </li>
+          <li class="text_kek_egy">
+            <div class="keszsegeim">React</div>
+            <div class="frontEnd_eszkozei_csuszka bg-white"></div>
+          </li>
+        </ul>
+      </li>
 
-    <footer class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
-      <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Elérhetőség<span class="text_lila">&lt;/h2&gt;</span></h2>
-      <span class="text_kek">&lt;script&gt;</span>
-      <p class="text_zold">// telefon számom</p>
-      <p><span class="text_kek">const</span> <span class="text_kek_vilagos">telNum</span> = <a href="tel:+36203271517" class="text_zold_halvany">0620 327 15 17</a>;</p>
-      <p class="text_zold">// e-mail címem</p>
-      <p><span class="text_kek">const</span> <span class="text_kek_vilagos">email</span> = "<a href="mailto:info@kravadev.hu" class="text_zold_halvany">info@kravadev.hu</a>";</p>
-      <span class="text_kek">&lt;/script&gt;</span>
-    </footer>
-    <br>
+      <li>
+        <h5>Back-End</h5>
+        <ul class="mb-3">
+          <li class="text_kek_egy">
+            <div class="keszsegeim">Node.js</div>
+            <div class="frontEnd_eszkozei_csuszka bg-white"></div>
+          </li>
+          <li class="text_kek_egy">
+            <div class="keszsegeim">Express</div>
+            <div class="frontEnd_eszkozei_csuszka bg-white"></div>
+          </li>
+        </ul>
+      </li>
 
-    <script src="https://kit.fontawesome.com/ac4c1cd932.js" crossorigin="anonymous"></script>
-    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+      <li>
+        <h5>Databases</h5>
+        <ul class="mb-3">
+          <li class="text_kek_egy">
+            <div class="keszsegeim">MongoDB</div>
+            <div class="frontEnd_eszkozei_csuszka bg-white"></div>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <h5>Tools&Platforms</h5>
+        <ul>
+          <li class="text_kek_egy">
+            <div class="keszsegeim">Git</div>
+            <div class="frontEnd_eszkozei_csuszka csuszka_30"></div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
+    <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Munkáim<span class="text_lila">&lt;/h2&gt;</span>
+    </h2>
+    <ul>
+      <li><a href="https://www.amisclean.hu/" target="_blank" class="text-decoration-none text-white"
+          id="amisclean">https://www.amisclean.hu/</a></li>
+    </ul>
+  </section>
+
+  <footer class="container py-5 bg_szurke_header border_kek rounded my-1 text-white px-4">
+    <h2 class="mt-3 mb-5"><span class="text_lila">&lt;h2&gt;</span>Elérhetőség<span class="text_lila">&lt;/h2&gt;</span>
+    </h2>
+    <span class="text_kek">&lt;script&gt;</span>
+    <p class="text_zold">// telefon számom</p>
+    <p><span class="text_kek">const</span> <span class="text_kek_vilagos">telNum</span> = <a href="tel:+36203271517"
+        class="text_zold_halvany">0620 327 15 17</a>;</p>
+    <p class="text_zold">// e-mail címem</p>
+    <p><span class="text_kek">const</span> <span class="text_kek_vilagos">email</span> = "<a
+        href="mailto:info@kravadev.hu" class="text_zold_halvany">info@kravadev.hu</a>";</p>
+    <span class="text_kek">&lt;/script&gt;</span>
+  </footer>
+  <br>
+
+  <script src="https://kit.fontawesome.com/ac4c1cd932.js" crossorigin="anonymous"></script>
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

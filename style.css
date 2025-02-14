@@ -140,11 +140,11 @@ section {
     width: 40px;
 }
 
-#keszsegeim {
+.keszsegeim {
     display: inline-block;
     width: 110px;
 }
-#frontEnd_eszkozei_csuszka {
+.frontEnd_eszkozei_csuszka {
     display: inline-block;
     width: 100px;
     height: 10px;

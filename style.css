@@ -131,13 +131,7 @@ section {
         opacity: 0;
     }
 }
-
 /*///////////////////////////////////////////////////////*/
-header,
-section {
-    max-width: 1000px;
-}
-
 #logo_kep {
     width: 50px;
 }
@@ -150,21 +144,21 @@ section {
     display: inline-block;
     width: 110px;
 }
-
 #frontEnd_eszkozei_csuszka {
     display: inline-block;
     width: 100px;
     height: 10px;
     border-radius: 12px;
 }
-
 .csuszka_50 {
     background: linear-gradient(to right, #53C8FF 50%, white 50%);
 }
-
 .csuszka_30 {
     background: linear-gradient(to right, #53C8FF 30%, white 30%);
 }
 #amisclean:hover {
     color: #53C8FF !important;
+}
+header, section, footer {
+    max-width: 800px !important;
 }
